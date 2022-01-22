@@ -70,6 +70,7 @@ function highlightTaskAtHand() {
 
                 if (startHour + routine[i].startMinutes / 100 <= shortTime && endHour + routine[i].endMinutes / 100 > shortTime) {
                     return i
+                    // test
                 }
             }
         }
