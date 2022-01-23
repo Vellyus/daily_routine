@@ -8,44 +8,34 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.static("public"))
 app.use(cookieParser())
 
-
-
-const { morningRoutine } = require("./public/data/data.json")
-const { afternoonRoutine } = require("./public/data/data.json")
-const { nightRoutine } = require("./public/data/data.json")
-
+const { morningRoutine, afternoonRoutine, nightRoutine } = require("./public/data/data.json")
 
 //Add display values to routine tasks
-morningRoutine.map(task => {
+morningRoutine.forEach(task => {
   if (task.startMinutes < 10) task.displayStartMinutes = task.startMinutes + "0"
   else task.displayStartMinutes = task.startMinutes
+
+  if (task.endMinutes < 10) task.displayEndMinutes = task.endMinutes + "0"
+  else task.displayEndMinutes = task.endMinutes
+
 })
 
-morningRoutine.map(task => {
+afternoonRoutine.forEach(task => {
+  if (task.startMinutes < 10) task.displayStartMinutes = task.startMinutes + "0"
+  else task.displayStartMinutes = task.startMinutes
+
   if (task.endMinutes < 10) task.displayEndMinutes = task.endMinutes + "0"
   else task.displayEndMinutes = task.endMinutes
 })
 
-afternoonRoutine.map(task => {
+
+nightRoutine.forEach(task => {
   if (task.startMinutes < 10) task.displayStartMinutes = task.startMinutes + "0"
   else task.displayStartMinutes = task.startMinutes
-})
 
-afternoonRoutine.map(task => {
   if (task.endMinutes < 10) task.displayEndMinutes = task.endMinutes + "0"
   else task.displayEndMinutes = task.endMinutes
 })
-
-nightRoutine.map(task => {
-  if (task.startMinutes < 10) task.displayStartMinutes = task.startMinutes + "0"
-  else task.displayStartMinutes = task.startMinutes
-})
-
-nightRoutine.map(task => {
-  if (task.endMinutes < 10) task.displayEndMinutes = task.endMinutes + "0"
-  else task.displayEndMinutes = task.endMinutes
-})
-
 
 
 app.get('/', (req, res) => {
