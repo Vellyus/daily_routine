@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/morning', (req, res) => {
-  if (req.query.day === "weekend") res.render("weekend")
+  if (req.query.day === "weekend") res.render("weekend", { morningRoutine })
   else {
     res.cookie("routine", "morningRoutine")
     res.render("morning", { morningRoutine })
@@ -51,7 +51,7 @@ app.get('/morning', (req, res) => {
 })
 
 app.get('/afternoon', (req, res) => {
-  if (req.query.day === "weekend") res.render("weekend")
+  if (req.query.day === "weekend") res.render("weekend", { afternoonRoutine })
   else {
     res.cookie("routine", "afternoonRoutine")
     res.render("afternoon", { afternoonRoutine })
@@ -59,7 +59,7 @@ app.get('/afternoon', (req, res) => {
 })
 
 app.get('/night', (req, res) => {
-  if (req.query.day === "weekend") res.render("weekend")
+  if (req.query.day === "weekend") res.render("weekend", { nightRoutine })
   else {
     res.cookie("routine", "nightRoutine")
     res.render("night", { nightRoutine })
