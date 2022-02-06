@@ -3,22 +3,5 @@ extends layout.pug
 block content
   h1.time Time: 
 
-  p.task #{morningRoutine[0].task} -  #{morningRoutine[0].startHour}:#{morningRoutine[0].displayStartMinutes} - #{morningRoutine[0].endHour}:#{morningRoutine[0].displayEndMinutes}
-
-  p.task #{morningRoutine[1].task} -  #{morningRoutine[1].startHour}:#{morningRoutine[1].displayStartMinutes} - #{morningRoutine[1].endHour}:#{morningRoutine[1].displayEndMinutes}
-
-  p.task #{morningRoutine[2].task} -  #{morningRoutine[2].startHour}:#{morningRoutine[2].displayStartMinutes} - #{morningRoutine[2].endHour}:#{morningRoutine[2].displayEndMinutes}
-
-  p.task #{morningRoutine[3].task} -  #{morningRoutine[3].startHour}:#{morningRoutine[3].displayStartMinutes} - #{morningRoutine[3].endHour}:#{morningRoutine[3].displayEndMinutes}
-
-  p.task #{morningRoutine[4].task} -  #{morningRoutine[4].startHour}:#{morningRoutine[4].displayStartMinutes} - #{morningRoutine[4].endHour}:#{morningRoutine[4].displayEndMinutes}
-
-  p.task #{morningRoutine[5].task} -  #{morningRoutine[5].startHour}:#{morningRoutine[5].displayStartMinutes} - #{morningRoutine[5].endHour}:#{morningRoutine[5].displayEndMinutes}
-
-  p.task #{morningRoutine[6].task} -  #{morningRoutine[6].startHour}:#{morningRoutine[6].displayStartMinutes} - #{morningRoutine[6].endHour}:#{morningRoutine[6].displayEndMinutes}
-
-  p.task #{morningRoutine[7].task} -  #{morningRoutine[7].startHour}:#{morningRoutine[7].displayStartMinutes} - #{morningRoutine[7].endHour}:#{morningRoutine[7].displayEndMinutes}
- 
-  p.task #{morningRoutine[8].task} -  #{morningRoutine[8].startHour}:#{morningRoutine[8].displayStartMinutes} - #{morningRoutine[8].endHour}:#{morningRoutine[8].displayEndMinutes}
-  
-  p.task #{morningRoutine[9].task} -  #{morningRoutine[9].startHour}:#{morningRoutine[9].displayStartMinutes} - #{morningRoutine[9].endHour}:#{morningRoutine[9].displayEndMinutes}
+  each task, i in morningRoutine
+    p.task #{morningRoutine[i].task} -  #{morningRoutine[i].startHour}:#{morningRoutine[i].displayStartMinutes} - #{morningRoutine[i].endHour}:#{morningRoutine[i].displayEndMinutes}

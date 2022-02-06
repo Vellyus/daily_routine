@@ -3,22 +3,5 @@ extends layout.pug
 block content
   h1.time Time: 
 
-  p.task #{nightRoutine[0].task} -  #{nightRoutine[0].startHour}:#{nightRoutine[0].displayStartMinutes} - #{nightRoutine[0].endHour}:#{nightRoutine[0].displayEndMinutes}
-
-  p.task #{nightRoutine[1].task} -  #{nightRoutine[1].startHour}:#{nightRoutine[1].displayStartMinutes} - #{nightRoutine[1].endHour}:#{nightRoutine[1].displayEndMinutes}
-
-  p.task #{nightRoutine[2].task} -  #{nightRoutine[2].startHour}:#{nightRoutine[2].displayStartMinutes} - #{nightRoutine[2].endHour}:#{nightRoutine[2].displayEndMinutes}
-
-  p.task #{nightRoutine[3].task} -  #{nightRoutine[3].startHour}:#{nightRoutine[3].displayStartMinutes} - #{nightRoutine[3].endHour}:#{nightRoutine[3].displayEndMinutes}
-
-  p.task #{nightRoutine[4].task} -  #{nightRoutine[4].startHour}:#{nightRoutine[4].displayStartMinutes} - #{nightRoutine[4].endHour}:#{nightRoutine[4].displayEndMinutes}
-
-  p.task #{nightRoutine[5].task} -  #{nightRoutine[5].startHour}:#{nightRoutine[5].displayStartMinutes} - #{nightRoutine[5].endHour}:#{nightRoutine[5].displayEndMinutes}
-
-  p.task #{nightRoutine[6].task} -  #{nightRoutine[6].startHour}:#{nightRoutine[6].displayStartMinutes} - #{nightRoutine[6].endHour}:#{nightRoutine[6].displayEndMinutes}
-
-  p.task #{nightRoutine[7].task} -  #{nightRoutine[7].startHour}:#{nightRoutine[7].displayStartMinutes} - #{nightRoutine[7].endHour}:#{nightRoutine[7].displayEndMinutes}
- 
-  p.task #{nightRoutine[8].task} -  #{nightRoutine[8].startHour}:#{nightRoutine[8].displayStartMinutes} - #{nightRoutine[8].endHour}:#{nightRoutine[8].displayEndMinutes}
-  
-  p.task #{nightRoutine[9].task} -  #{nightRoutine[9].startHour}:#{nightRoutine[9].displayStartMinutes} - #{nightRoutine[9].endHour}:#{nightRoutine[9].displayEndMinutes}
+  each task, i in nightRoutine
+    p.task #{nightRoutine[i].task} -  #{nightRoutine[i].startHour}:#{nightRoutine[i].displayStartMinutes} - #{nightRoutine[i].endHour}:#{nightRoutine[i].displayEndMinutes}
