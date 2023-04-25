@@ -1,194 +1,185 @@
 {
     "morningRoutine": [{
-            "task": "Exercise",
-            "startHour": 3,
-            "startMinutes": 0,
-            "endHour": 3,
-            "endMinutes": 30
-        },
-        {
-            "task": "Shower",
-            "startHour": 3,
-            "startMinutes": 30,
-            "endHour": 4,
-            "endMinutes": 0
-        },
-        {
-            "task": "Breakfast",
-            "startHour": 4,
-            "startMinutes": 0,
-            "endHour": 4,
-            "endMinutes": 30
-        },
-        {
-            "task": "Get ready for work",
-            "startHour": 4,
-            "startMinutes": 30,
-            "endHour": 4,
-            "endMinutes": 45
-        },
-        {
-            "task": "WORK",
-            "startHour": 4,
-            "startMinutes": 45,
-            "endHour": 14,
-            "endMinutes": 30
-        },
-        {
-            "task": "Coffee + code/study",
-            "startHour": 14,
-            "startMinutes": 30,
-            "endHour": 16,
-            "endMinutes": 30
-        },
-        {
-            "task": "Me-time",
-            "startHour": 16,
-            "startMinutes": 30,
-            "endHour": 18,
-            "endMinutes": 30
-        },
-        {
-            "task": "Dinner",
-            "startHour": 18,
-            "startMinutes": 30,
-            "endHour": 19,
-            "endMinutes": 0
-        },
-        {
-            "task": "Sleep",
-            "startHour": 19,
-            "startMinutes": 0,
-            "endHour": 3,
-            "endMinutes": 0
-        }
-    ],
+        "task": "Get up",
+        "startHour": 4,
+        "startMinutes": 15,
+        "endHour": 4,
+        "endMinutes": 30
+    }, {
+        "task": "Get ready for work",
+        "startHour": 4,
+        "startMinutes": 30,
+        "endHour": 4,
+        "endMinutes": 45
+    }, {
+        "task": "WORK",
+        "startHour": 4,
+        "startMinutes": 45,
+        "endHour": 14,
+        "endMinutes": 30
+    }, {
+        "task": "Lunch",
+        "startHour": 14,
+        "startMinutes": 30,
+        "endHour": 15,
+        "endMinutes": 0
+    }, {
+        "task": "Coffee + code/study",
+        "startHour": 15,
+        "startMinutes": 0,
+        "endHour": 17,
+        "endMinutes": 0
+    }, {
+        "task": "Other tasks",
+        "startHour": 17,
+        "startMinutes": 0,
+        "endHour": 18,
+        "endMinutes": 30
+    }, {
+        "task": "Shower",
+        "startHour": 18,
+        "startMinutes": 30,
+        "endHour": 19,
+        "endMinutes": 0
+    }, {
+        "task": "Dinner",
+        "startHour": 19,
+        "startMinutes": 0,
+        "endHour": 19,
+        "endMinutes": 30
+    }, {
+        "task": "Me-time",
+        "startHour": 19,
+        "startMinutes": 30,
+        "endHour": 21,
+        "endMinutes": 15
+    }, {
+        "task": "Sleep",
+        "startHour": 21,
+        "startMinutes": 15,
+        "endHour": 4,
+        "endMinutes": 15
+    }],
     "afternoonRoutine": [{
-            "task": "Exercise",
-            "startHour": 7,
-            "startMinutes": 0,
-            "endHour": 7,
-            "endMinutes": 30
-        },
-        {
-            "task": "Shower",
-            "startHour": 7,
-            "startMinutes": 30,
-            "endHour": 8,
-            "endMinutes": 0
-        },
-        {
-            "task": "Breakfast",
-            "startHour": 8,
-            "startMinutes": 0,
-            "endHour": 8,
-            "endMinutes": 30
-        },
-        {
-            "task": "Coffee + code/study",
-            "startHour": 8,
-            "startMinutes": 30,
-            "endHour": 10,
-            "endMinutes": 30
-        },
-        {
-            "task": "Me-time",
-            "startHour": 10,
-            "startMinutes": 30,
-            "endHour": 12,
-            "endMinutes": 30
-        },
-        {
-            "task": "Get ready for work",
-            "startHour": 12,
-            "startMinutes": 30,
-            "endHour": 12,
-            "endMinutes": 45
-        },
-        {
-            "task": "WORK",
-            "startHour": 12,
-            "startMinutes": 45,
-            "endHour": 22,
-            "endMinutes": 30
-        },
-        {
-            "task": "Dinner",
-            "startHour": 22,
-            "startMinutes": 30,
-            "endHour": 23,
-            "endMinutes": 0
-        },
-        {
-            "task": "Sleep",
-            "startHour": 23,
-            "startMinutes": 0,
-            "endHour": 7,
-            "endMinutes": 0
-        }
-    ],
+        "task": "Get up",
+        "startHour": 8,
+        "startMinutes": 15,
+        "endHour": 8,
+        "endMinutes": 30
+    }, {
+        "task": "Breakfast",
+        "startHour": 8,
+        "startMinutes": 30,
+        "endHour": 9,
+        "endMinutes": 0
+    }, {
+        "task": "Coffee + code/study",
+        "startHour": 9,
+        "startMinutes": 0,
+        "endHour": 11,
+        "endMinutes": 0
+    }, {
+        "task": "Other tasks",
+        "startHour": 11,
+        "startMinutes": 0,
+        "endHour": 12,
+        "endMinutes": 30
+    }, {
+        "task": "Get ready for work",
+        "startHour": 12,
+        "startMinutes": 30,
+        "endHour": 12,
+        "endMinutes": 45
+    }, {
+        "task": "WORK",
+        "startHour": 12,
+        "startMinutes": 45,
+        "endHour": 22,
+        "endMinutes": 30
+    }, {
+        "task": "Shower",
+        "startHour": 22,
+        "startMinutes": 30,
+        "endHour": 23,
+        "endMinutes": 0
+    }, {
+        "task": "Dinner",
+        "startHour": 23,
+        "startMinutes": 0,
+        "endHour": 23,
+        "endMinutes": 30
+    }, {
+        "task": "Me-time",
+        "startHour": 23,
+        "startMinutes": 30,
+        "endHour": 1,
+        "endMinutes": 15
+    }, {
+        "task": "Sleep",
+        "startHour": 1,
+        "startMinutes": 15,
+        "endHour": 8,
+        "endMinutes": 15
+    }],
     "nightRoutine": [{
-            "task": "Exercise",
-            "startHour": 15,
-            "startMinutes": 0,
-            "endHour": 15,
-            "endMinutes": 30
-        },
-        {
-            "task": "Shower",
-            "startHour": 15,
-            "startMinutes": 30,
-            "endHour": 16,
-            "endMinutes": 0
-        },
-        {
-            "task": "Breakfast",
-            "startHour": 16,
-            "startMinutes": 0,
-            "endHour": 16,
-            "endMinutes": 30
-        },
-        {
-            "task": "Coffee + code/study",
-            "startHour": 16,
-            "startMinutes": 30,
-            "endHour": 18,
-            "endMinutes": 30
-        },
-        {
-            "task": "Me-time",
-            "startHour": 18,
-            "startMinutes": 30,
-            "endHour": 20,
-            "endMinutes": 30
-        },
-        {
-            "task": "Get ready for work",
-            "startHour": 20,
-            "startMinutes": 30,
-            "endHour": 20,
-            "endMinutes": 45
-        },
-        {
-            "task": "WORK",
-            "startHour": 20,
-            "startMinutes": 45,
-            "endHour": 6,
-            "endMinutes": 30
-        },
-        {
-            "task": "Dinner",
-            "startHour": 6,
-            "startMinutes": 30,
-            "endHour": 7,
-            "endMinutes": 0
-        },
-        {
-            "task": "Sleep",
-            "startHour": 7,
-            "startMinutes": 0,
-            "endHour": 15,
-            "endMinutes": 0
-        }
-    ]
+        "task": "Get up",
+        "startHour": 14,
+        "startMinutes": 30,
+        "endHour": 14,
+        "endMinutes": 45
+    }, {
+        "task": "Breakfast",
+        "startHour": 14,
+        "startMinutes": 45,
+        "endHour": 15,
+        "endMinutes": 15
+    }, {
+        "task": "Coffee + code/study",
+        "startHour": 15,
+        "startMinutes": 15,
+        "endHour": 17,
+        "endMinutes": 15
+    }, {
+        "task": "Other tasks",
+        "startHour": 17,
+        "startMinutes": 15,
+        "endHour": 18,
+        "endMinutes": 45
+    }, {
+        "task": "Me-time",
+        "startHour": 18,
+        "startMinutes": 45,
+        "endHour": 20,
+        "endMinutes": 30
+    }, {
+        "task": "Get ready for work",
+        "startHour": 20,
+        "startMinutes": 30,
+        "endHour": 20,
+        "endMinutes": 45
+    }, {
+        "task": "WORK",
+        "startHour": 20,
+        "startMinutes": 45,
+        "endHour": 6,
+        "endMinutes": 30
+    }, {
+        "task": "Shower",
+        "startHour": 6,
+        "startMinutes": 30,
+        "endHour": 7,
+        "endMinutes": 0
+    }, {
+        "task": "Dinner",
+        "startHour": 7,
+        "startMinutes": 0,
+        "endHour": 7,
+        "endMinutes": 30
+    }, {
+        "task": "Sleep",
+        "startHour": 7,
+        "startMinutes": 30,
+        "endHour": 14,
+        "endMinutes": 30
+    }]
 }
