@@ -63,9 +63,12 @@ function highlightTaskAtHand() {
                 let shortTime = getShortTime()
                 let startHour = routine[i].startHour
                 let endHour = routine[i].endHour
-                if (endHour < startHour) {
+                if (endHour < startHour && shortTime < 12) {
                     endHour += 24
                     shortTime += 24
+                }
+                if (endHour < startHour) {
+                    endHour += 24
                 }
 
                 if (startHour + routine[i].startMinutes / 100 <= shortTime && endHour + routine[i].endMinutes / 100 > shortTime) {
