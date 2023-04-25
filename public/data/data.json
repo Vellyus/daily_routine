@@ -36,21 +36,21 @@
         "endHour": 18,
         "endMinutes": 30
     }, {
-        "task": "Shower",
+        "task": "Me-time",
         "startHour": 18,
         "startMinutes": 30,
-        "endHour": 19,
-        "endMinutes": 0
+        "endHour": 20,
+        "endMinutes": 15
     }, {
         "task": "Dinner",
-        "startHour": 19,
-        "startMinutes": 0,
-        "endHour": 19,
-        "endMinutes": 30
+        "startHour": 20,
+        "startMinutes": 15,
+        "endHour": 20,
+        "endMinutes": 45
     }, {
-        "task": "Me-time",
-        "startHour": 19,
-        "startMinutes": 30,
+        "task": "Shower",
+        "startHour": 20,
+        "startMinutes": 45,
         "endHour": 21,
         "endMinutes": 15
     }, {
@@ -97,21 +97,21 @@
         "endHour": 22,
         "endMinutes": 30
     }, {
-        "task": "Shower",
+        "task": "Dinner",
         "startHour": 22,
         "startMinutes": 30,
         "endHour": 23,
         "endMinutes": 0
     }, {
-        "task": "Dinner",
-        "startHour": 23,
-        "startMinutes": 0,
-        "endHour": 23,
-        "endMinutes": 30
-    }, {
         "task": "Me-time",
         "startHour": 23,
-        "startMinutes": 30,
+        "startMinutes": 0,
+        "endHour": 0,
+        "endMinutes": 45
+    }, {
+        "task": "Shower",
+        "startHour": 0,
+        "startMinutes": 45,
         "endHour": 1,
         "endMinutes": 15
     }, {
@@ -164,13 +164,13 @@
         "endHour": 6,
         "endMinutes": 30
     }, {
-        "task": "Shower",
+        "task": "Dinner",
         "startHour": 6,
         "startMinutes": 30,
         "endHour": 7,
         "endMinutes": 0
     }, {
-        "task": "Dinner",
+        "task": "Shower",
         "startHour": 7,
         "startMinutes": 0,
         "endHour": 7,
